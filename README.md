@@ -13,7 +13,7 @@ Este projeto está atualmente em desenvolvimento. Novas funcionalidades estão s
 - **Banco de Dados H2**: Utilizado para desenvolvimento e testes como banco de dados em memória.
 - **Maven**: Ferramenta de build e gerenciamento de dependências.g
 
-# Como Executar
+## Como Executar
 
 Para executar a aplicação siga os seguintes passos:
 
