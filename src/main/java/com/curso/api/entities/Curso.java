@@ -36,7 +36,7 @@ public class Curso implements Serializable {
     private LocalDateTime dataDeAtualizacao;
 
     @Column(name = "nome", nullable = false)
-    // Define o nome da coluna como NOME_DO_CURSO, não aceita null como parametro
+    // Define o nome da coluna como NOME, não aceita null como parametro
     private String nome;
 
     private String usuario;
