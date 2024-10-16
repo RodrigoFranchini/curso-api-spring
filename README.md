@@ -7,15 +7,15 @@ Este projeto está atualmente em desenvolvimento. Novas funcionalidades estão s
 
 # Índice
 
-1. [Controllers](#controllers)
-2. [Entities](#entities)
-3. [Repositories](#repositories)
-4. [Services](#services)
-5. [Resources](#resources)
-6. [CursoApiApplication.java](#CursoApiApplication)
+1. [Controllers](src/main/java/com/curso/api/controllers)
+2. [Entities](src/main/java/com/curso/api/entities)
+3. [Repositories](src/main/java/com/curso/api/repositories)
+4. [Services](src/main/java/com/curso/api/services)
+5. [Resources](src/main/resources)
+6. [CursoApiApplication.java](src/main/java/com/curso/api/CursoApiApplication.java)
 
 
-## Estrutura do Projeto
+## Estrutura do Projeto Spring Boot
 
 ### *Controllers*
 Essa pasta contém os controladores da API. Os controladores são responsáveis por receber as requisições HTTP, processá-las e retornar a resposta adequada ao cliente.
