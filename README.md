@@ -5,6 +5,36 @@ Este projeto é uma API RESTful desenvolvida com Spring Boot, a API permite gere
 
 Este projeto está atualmente em desenvolvimento. Novas funcionalidades estão sendo planejadas e serão implementadas em futuras versões.
 
+# Índice
+
+1. [Controllers](#controllers)
+2. [Entities](#entities)
+3. [Repositories](#repositories)
+4. [Services](#services)
+5. [Resources](#resources)
+6. [CursoApiApplication.java](#CursoApiApplication)
+
+
+## Estrutura do Projeto
+
+### *Controllers*
+Essa pasta contém os controladores da API. Os controladores são responsáveis por receber as requisições HTTP, processá-las e retornar a resposta adequada ao cliente.
+
+### *Entities*
+Contém as classes que representam as entidades do sistema.
+
+### *Repositories*
+Aqui ficam os repositórios, que são responsáveis pela comunicação direta com o banco de dados.
+
+### *Services*
+Contém as regras de negócio da aplicação. Os serviços processam os dados vindos dos repositórios e aplicam a lógica necessária antes de enviá-los aos controladores.
+
+### *Resources*
+Nesta pasta ficam os recursos adicionais como os arquivos de configuração (por exemplo, `application.properties`) e scripts SQL (`data.sql`) para inicialização do banco de dados.
+
+### *CursoApiApplication.java*
+Esta é a classe principal que inicializa a aplicação Spring Boot. Aqui está configurada a execução da API.
+
 
 ## Tecnologias
 - **Java 17**: O projeto é construído utilizando o Java 17.
